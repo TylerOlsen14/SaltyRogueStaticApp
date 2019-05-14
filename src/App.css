@@ -14,9 +14,25 @@
   margin: auto;
   width: 90%;
   background-color: grey;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .app{
   background-color: black;
   height:100vh;
+}
+
+h1{
+  text-align: center;
+}
+
+.FormGroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkbox{
+  align-self: center;
 }
