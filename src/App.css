@@ -9,3 +9,14 @@
 .logo {
   align-self: flex-start;
 }
+
+.main {
+  margin: auto;
+  width: 90%;
+  background-color: grey;
+}
+
+.app{
+  background-color: black;
+  height:100vh;
+}

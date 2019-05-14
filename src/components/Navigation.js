@@ -29,7 +29,7 @@ import {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">
             <img src={logo} alt="Salty Rogue Real Estate" style={{width: 75}} />
           </NavbarBrand>
@@ -47,19 +47,19 @@ import {
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Properties
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                    Emma Street
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                    Lehi Properties
                   </DropdownItem>
-                  <DropdownItem divider />
+                  {/* <DropdownItem divider />
                   <DropdownItem>
                     Reset
-                  </DropdownItem>
+                  </DropdownItem> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

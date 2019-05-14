@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const Error = () => {
   return (
-    <div>
+    <div className="main">
       <p>Error: path not found</p>
     </div>
   );
