@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-const About = () => {
+const Error = () => {
   return (
     <div>
-      <p>About</p>
+      <p>Error: path not found</p>
     </div>
   );
 }
 
-export default About
+export default Error
