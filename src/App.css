@@ -17,22 +17,22 @@
   padding-left: 1em;
   padding-right: 1em;
 }
-
+/* 
 .app{
   background-color: black;
   height:100vh;
-}
+} */
 
 h1{
   text-align: center;
 }
 
-.FormGroup{
+.checkboxGroup{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.checkbox{
-  align-self: center;
+.question{
+  padding-bottom: 2em;
 }

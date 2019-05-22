@@ -11,7 +11,9 @@ const Home = () => {
       <Form>
         <FormGroup>
           <Label for="exampleEmail">Contact Us</Label>
-          <p className="exampleEmail">Let us know what questions you might have. We will be happy to help you with whatever you need. Give your name and phonenumber and tell us which property you might be interested in. We will get back to you as soon as possible.</p>
+          <p className="exampleEmail">
+            Let us know what questions you might have. We will be happy to help you with whatever you need. Give your name and phonenumber and tell us which property you might be interested in. We will get back to you as soon as possible.
+          </p>
         </FormGroup>
         <FormGroup>
           <Label for="name">Name</Label>
@@ -40,18 +42,18 @@ const Home = () => {
             placeholder="Phone Number placeholder"
           />
         </FormGroup>
-        <FormGroup check className="FormGroup">
+        <FormGroup check className="checkboxGroup">
           <Label check className="checkbox">
-            <Input className="checkbox" type="checkbox" id="EmmaStreet" /> Emma Street
+            <Input className="checkbox" type="checkbox" id="EmmaStreet" label="Emma Street" />
             <Input className="checkbox" type="checkbox" id="LithiaPark" /> Lithia Park
             <Input className="checkbox" type="checkbox" id="LehiSouth" /> Lehi South
             <Input className="checkbox" type="checkbox" id="CottonwoodHeights" /> Cottonwood Heights
             <Input className="checkbox" type="checkbox" id="AmericanFork" /> American Fork
           </Label>
         </FormGroup>
-        <FormGroup>
+        <FormGroup className="question">
           <Label for="exampleText">Mark your question here</Label>
-          <Input type="textarea" name="text" id="exampleText" placeholder="It can be as ridiculous as you want" />
+          <Input type="textarea" className="question" name="text" id="exampleText" placeholder="It can be as ridiculous as you want" />
         </FormGroup>
       </Form>
     </div>
