@@ -6,16 +6,26 @@
   align-items: center;
 }
 
+body{ 
+  background-image: url('./assets/close-up-door-focus-101808.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto 100%;
+}
+
 .logo {
   align-self: flex-start;
 }
 
 .main {
   margin: auto;
-  width: 90%;
-  background-color: grey;
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 85%;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 64), rgba(255,0,0,0));
+  /* background: rgba(0, 151, 33, 0.397);  */
+  /* margin-top: 3em; */
+  padding: 2em;
+  padding-top: 2em;
 }
 /* 
 .app{
@@ -35,4 +45,11 @@ h1{
 
 .question{
   padding-bottom: 2em;
+}
+
+.footer{
+  height: 150px;
+  width: 100%;
+  background: aquamarine;
+  display: grid;
 }
