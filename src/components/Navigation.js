@@ -51,15 +51,14 @@ import {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Emma Street
+                    <NavLink href="Properties/EmmaStreet">Emma Street</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="Properties/LaurelStreet">Laurel Street</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     Lehi Properties
                   </DropdownItem>
-                  {/* <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

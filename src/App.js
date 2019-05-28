@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import EmmaStreet from './components/properties/EmmaStreet';
+import LaurelStreet from './components/properties/LaurelStreet'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/About' component={About} />
           <Route path='/Contact' component={Contact} />
+          <Route path='/Properties/EmmaStreet' component={EmmaStreet} />
+          <Route path='/Properties/LaurelStreet' component={LaurelStreet} />
           <Route component={Error} />
         </Switch>
         <Footer />
