@@ -23,7 +23,9 @@ function App() {
           <Route path='/Properties/LaurelStreet' component={LaurelStreet} />
           <Route component={Error} />
         </Switch>
-        <Footer />
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     </BrowserRouter>
     );

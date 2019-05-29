@@ -31,7 +31,7 @@ import {
       <div>
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">
-            <img src={logo} alt="Salty Rogue Real Estate" style={{width: 75}} />
+            <img src={logo} alt="Salty Rogue Real Estate" style={{width: 75, height: 75}} />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
