@@ -12,7 +12,9 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem,
+  Button
+  } from 'reactstrap';
 
   export default class Navigation extends React.Component {    constructor(props){
       super(props);
@@ -50,14 +52,15 @@ import {
                   Properties
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    <NavLink href="Properties/EmmaStreet">Emma Street</NavLink>
+                  <DropdownItem className="NavLink">
+                  <Button color="info" size="lg" block>
+                      <NavLink style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: 'red', textDecoration: 'none'}} href="Properties/EmmaStreet">Emma Street</NavLink>
+                    </Button>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="Properties/LaurelStreet">Laurel Street</NavLink>
-                  </DropdownItem>
-                  <DropdownItem>
-                    Lehi Properties
+                    <Button color="info" size="lg" block>
+                      <NavLink href="Properties/LaurelStreet">Laurel Street</NavLink>
+                    </Button>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

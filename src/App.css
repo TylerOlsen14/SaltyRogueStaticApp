@@ -20,20 +20,15 @@ body{
 
 .main {
   margin: auto;
-  width: 85%;
-  /* background: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 64), rgba(255,0,0,0)); */
-
-  padding: 2em;
-  padding-top: 2em;
 }
 
 .card{
   opacity: .8;
-  margin: 25px;
-}
+  margin: 1rem;
+  width: 85%;
+  padding: 2em;}
 
-
-h1{
+h1, h2{
   text-align: center;
 }
 
@@ -46,7 +41,6 @@ h1{
 .question{
   padding-bottom: 2em;
 }
-
 
 .property {
   position: relative;
@@ -69,36 +63,4 @@ h1{
   display: inline-block;
   height: 100%;
   width: 100%;
-}
-
-.arrow {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f9f9f9;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: transform ease-in .1s;
-}
-
-.nextArrow {
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  z-index: 999;
-  color: #fff;
-}
-
-.backArrow {
-  position: absolute;
-  top: 50%;
-  left: 25px;
-  z-index: 999;
-  color: #fff;
-}
-
-.fa-arrow-right:before, .fa-arrow-left:before {
-  color: #222
 }

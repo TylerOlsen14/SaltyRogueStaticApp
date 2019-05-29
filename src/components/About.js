@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const About = () => {
   return (
     <div className="main card">
-      <p>About</p>
+      <h2>
+        About
+      </h2>
       <div className="kafka">
         <p>
           One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.

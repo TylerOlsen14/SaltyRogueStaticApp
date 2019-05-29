@@ -3,10 +3,7 @@ import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'react
 
 const Contact = () => {
   return (
-    <div className="main">
-      <p>
-        Contact
-      </p>
+    <div className="main card">
       <h1>
         Salty Rogue Real Estate
       </h1>
