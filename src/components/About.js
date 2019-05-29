@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const About = () => {
   return (
-    <div className="main">
+    <div className="main card">
       <p>About</p>
       <div className="kafka">
         <p>

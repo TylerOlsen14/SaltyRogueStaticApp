@@ -21,12 +21,17 @@ body{
 .main {
   margin: auto;
   width: 85%;
-  background: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 64), rgba(255,0,0,0));
-  /* background: rgba(0, 151, 33, 0.397);  */
-  /* margin-top: 3em; */
+  /* background: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 64), rgba(255,0,0,0)); */
+
   padding: 2em;
   padding-top: 2em;
 }
+
+.card{
+  opacity: .8;
+  margin: 25px;
+}
+
 
 h1{
   text-align: center;
