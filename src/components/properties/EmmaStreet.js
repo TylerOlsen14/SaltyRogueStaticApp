@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {
+  Card,
+  CardTitle,
   Carousel,
   CarouselItem,
   CarouselControl,
@@ -111,26 +113,33 @@ class EmmaStreet extends React.Component {
         onExiting={this.onExiting}
         onExited={this.onExited}
         key={image.src}
-      >
-        <img className="CarouselImage" src={image.src} alt={image.altText} />
-        <CarouselCaption captionText={image.caption} captionHeader={image.caption} style={{opacity: .99}} />
-      </CarouselItem>
+        >
+          <img className="CarouselImage" src={image.src} alt={image.altText} />
+          <CarouselCaption className="CarouselCaption" captionText={image.caption} captionHeader={image.caption} />
+        </CarouselItem>
       )
     })
 
     return (
       <div>
-        <Carousel
-          activeIndex={activeIndex}
-          next={this.next}
-          prevous={this.previous}
-          className="Carousel"
-        >
-          <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-          {slides}
-          <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-          <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-        </Carousel>
+        <Card className="card">
+          <CardTitle className="title">
+            <p>
+              Emma Street
+            </p>
+          </CardTitle>
+          <Carousel
+            activeIndex={activeIndex}
+            next={this.next}
+            prevous={this.previous}
+            className="Carousel carousel-fade"
+          >
+            <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+            {slides}
+            <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+            <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+          </Carousel>
+        </Card>
       </div>
     );
   }
