@@ -1,0 +1,23 @@
+.footer{
+  height: 10rem;
+  width: 100%;
+  background: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+}
+img{
+  height: 10rem;
+  margin-left: 1rem;
+}
+.contactDetails{
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+}
+.CaptainFinn{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+}

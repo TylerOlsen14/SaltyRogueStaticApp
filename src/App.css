@@ -11,7 +11,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 100% auto;
+  background-size: 200%;
 }
 
 .logo {
@@ -42,14 +42,8 @@ h1{
   padding-bottom: 2em;
 }
 
-.footer{
-  height: 150px;
-  width: 100%;
-  background: aquamarine;
-  display: grid;
-}
 
-.propert {
+.property {
   position: relative;
   width: 500px;
   margin: 0 auto;
@@ -60,8 +54,10 @@ h1{
 
 .slider-wrapper {
   position: relative;
-  height: 100%;
-  width: 100%;
+  width: 90%;
+  height: 35rem;
+  background-color: #222;
+  margin: auto;
 }
 
 .slide {
