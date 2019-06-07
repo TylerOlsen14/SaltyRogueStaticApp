@@ -12,60 +12,60 @@ import './propertyStyle.css'
 
 const items = [
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISuk7070zpttd61000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISijensahjo2ph1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00001.webp',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/IS6ajn81lduzt61000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/IS27azrx8388ph1000000000.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISukrbxrxea0971000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISybza81oy2mph1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00003.webp',
     altText: 'Slide 3',
     caption: 'Slide 3'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISa17zvw3retz51000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISizum7ofimrph1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00004.webp',
     altText: 'Slide 4',
     caption: 'Slide 4'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISmepzelt623971000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISugomo43uxzph1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00005.webp',
     altText: 'Slide 5',
     caption: 'Slide 5'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/IS2v4ndqzi6wz51000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISmama6yylp2qh1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00006.webp',
     altText: 'Slide 6',
     caption: 'Slide 6'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISe8nnwepyt5971000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/IS6yhm5lq598qh1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00007.webp',
     altText: 'Slide 7',
     caption: 'Slide 7'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISuo2bvjvayyz51000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISqldy48ipsdqh1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00008.webp',
     altText: 'Slide 8',
     caption: 'Slide 8'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/IS62lbe8lql8971000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISa99a4v99cjqh1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00009.webp',
     altText: 'Slide 9',
     caption: 'Slide 9'
   },
   {
-    src: 'https://photos.zillowstatic.com/cc_ft_1536/ISecymu6nuh4061000000000.webp',
+    src: 'https://photos.zillowstatic.com/p_f/ISuw4m3i1tvoqh1000000000.jpg',
     // src: '../../assets/LaurelStreet/LaurelStreet00010.webp',
     altText: 'Slide 10',
     caption: 'Slide 10'
@@ -125,7 +125,7 @@ class LaurelStreet extends React.Component {
         <Card className="card">
           <CardTitle className="title">
             <p>
-              Emma Street
+              Laurel Street
             </p>
           </CardTitle>
           <Carousel
