@@ -19,14 +19,15 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/About' component={About} />
           <Route path='/Contact' component={Contact} />
-          <Route path='/Properties/EmmaStreet' component={EmmaStreet} />
-          <Route path='/Properties/LaurelStreet' component={LaurelStreet} />
+          <Route path='/Properties/EmmaStreet' exact component={EmmaStreet} />
+          <Route path='/Properties/LaurelStreet' exact component={LaurelStreet} />
           <Route component={Error} />
         </Switch>
-        <div className="footer">
-          <Footer />
-        </div>
       </div>
+      <div className="footer">
+        <Footer />
+      </div>
+
     </BrowserRouter>
     );
 }
